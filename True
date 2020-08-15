@@ -1,12 +1,12 @@
 class CUP_optic_PSO_3_open
 {
-	author = "Mrbadman";
+	author = "Community Upgrade Project";
 	dlc = "CUP_Weapons";
 	scope = 2;
-	displayName = "PSO-3(open)";
+	displayName = "ПСО-3 (Без наглазника)";
 	picture = "\CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\data\UI\gear_acco_pso_3_ca.paa";
 	model = "CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\CUP_pso_3_open.p3d";
-	descriptionShort = "CUP_dss_pso3_open";
+	descriptionShort = "Дальнобойная Российская оптика<br />Увеличение: 8x";
 	weaponInfoType = "CBA_ScriptedOptic";
 	class CBA_ScriptedOptic
 	{
