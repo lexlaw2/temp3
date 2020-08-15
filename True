@@ -1,12 +1,12 @@
 class CUP_optic_PSO_3
 {
-	author = "Community Upgrade Project";
+	author = "MrBudmun";
 	dlc = "CUP_Weapons";
 	scope = 2;
-	displayName = "ПСО-3";
+	displayName = "PSO-3";
 	picture = "\CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\data\UI\gear_acco_pso_3_ca.paa";
 	model = "CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\CUP_pso_3.p3d";
-	descriptionShort = "Дальнобойная Российская оптика<br />Увеличение: 8x";
+	descriptionShort = "CUP_dss_pso3";
 	weaponInfoType = "CBA_ScriptedOptic";
 	class CBA_ScriptedOptic
 	{
