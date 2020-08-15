@@ -1,11 +1,11 @@
-class CUP_optic_PSO_3_open
+class CUP_optic_PSO_3
 {
 	author = "Community Upgrade Project";
 	dlc = "CUP_Weapons";
 	scope = 2;
-	displayName = "ПСО-3 (Без наглазника)";
+	displayName = "ПСО-3";
 	picture = "\CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\data\UI\gear_acco_pso_3_ca.paa";
-	model = "CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\CUP_pso_3_open.p3d";
+	model = "CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\CUP_pso_3.p3d";
 	descriptionShort = "Дальнобойная Российская оптика<br />Увеличение: 8x";
 	weaponInfoType = "CBA_ScriptedOptic";
 	class CBA_ScriptedOptic
@@ -14,9 +14,9 @@ class CUP_optic_PSO_3_open
 		reticleTextureNight = "\CUP\Weapons\CUP_Weapons_East_Attachments\PSO-1\data\PSO3_reticle_n_ca.paa";
 		reticleTextureSize = 1.174;
 		manualReticleNightSwitch = 1;
-		bodyTexture = "\CUP\Weapons\CUP_Weapons_East_Attachments\pip_body\scope_body_ca.paa";
-		bodyTextureNight = "\CUP\Weapons\CUP_Weapons_East_Attachments\pip_body\scope_bodyNight_ca.paa";
-		bodyTextureSize = 1.95;
+		hidePeripheralVision = 1;
+		bodyTexture = "\a3\weapons_f\acc\data\scope_view_ca.paa";
+		bodyTextureSize = 1;
 	};
 	class ItemInfo
 	{
